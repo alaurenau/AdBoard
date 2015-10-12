@@ -1,0 +1,91 @@
+body{
+    color:#51555C;
+    background-color:#123456;
+}
+
+.clear{	/* the clearfix hack */
+    clear:both;
+}
+
+a, a:visited {	/* styling the links */
+    color:#007bc4;
+    text-decoration:none;
+    outline:none;
+}
+
+a:hover{	/* the hover effect */
+    text-decoration:underline;
+}
+
+#rounded{	/* the outermost div element */
+    max-width: 1024px;
+    margin:20px auto;	/*center it on the page*/
+}
+
+.container{	/* navigation, titles, and fetched content */
+    background-color:#FFFFFF;
+    padding:10px 20px 20px 20px;
+}
+
+ul{
+    margin:10px 0px;
+}
+
+li{
+    list-style:none;
+
+    float:left;
+}
+
+li a,li a:visited{	/* the navigation links */
+    padding:5px 10px;
+    margin: 5px 5px;
+    text-align:center;
+    background-color:#000033;
+    color:white;
+
+    -moz-border-radius:5px;	/* rounding them */
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+
+}
+
+li a:hover{
+    background-color:#666666;
+    text-decoration:none;
+}
+
+#pageContent{	/* the container that holds AJAX loaded content */
+    margin-top:20px;
+
+    border:1px dashed #cccccc;
+    padding:10px;
+
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #fbcb09;
+}
+
+
+div.errors {
+    background-color: #ffcccc;
+    border: 2px solid red;
+}
+
+.error {
+    color: red;
+}
+
+input.error {
+    background-color: #ffcccc;
+}
+
+#navigation {
+    height: 30px;
+}
